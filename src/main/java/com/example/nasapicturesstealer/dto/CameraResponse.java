@@ -8,7 +8,6 @@ import lombok.Data;
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Data
 public class CameraResponse {
-
     @JsonProperty(value = "id")
     private Long id;
     @JsonProperty(value = "name")

@@ -9,7 +9,6 @@ import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 
 @Configuration
 public class HttpCallConfiguration {
-
     private static final String PATH = "https://api.nasa.gov/mars-photos/api/v1";
 
     @Bean

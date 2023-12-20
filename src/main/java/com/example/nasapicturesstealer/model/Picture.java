@@ -18,4 +18,5 @@ public class Picture {
     private Long camera_id;
     private String imd_src;
     private LocalDateTime createdAt = LocalDateTime.now();
+
 }

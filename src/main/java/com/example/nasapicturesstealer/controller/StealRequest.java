@@ -1,4 +1,3 @@
 package com.example.nasapicturesstealer.controller;
 
-public record StealRequest(String sol) {
-}
+public record StealRequest(String sol) {}
