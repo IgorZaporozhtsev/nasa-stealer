@@ -6,7 +6,6 @@ import org.springframework.web.service.annotation.HttpExchange;
 
 @HttpExchange("/rovers/curiosity/photos")
 public interface NasaClient {
-
     @GetExchange()
     String receivePicture(@RequestParam String api_key, @RequestParam String sol);
 }

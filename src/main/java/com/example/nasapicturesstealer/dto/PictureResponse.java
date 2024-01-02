@@ -15,4 +15,5 @@ public class PictureResponse {
 
     @JsonProperty(value = "camera")
     private CameraResponse cameraResponse;
+
 }

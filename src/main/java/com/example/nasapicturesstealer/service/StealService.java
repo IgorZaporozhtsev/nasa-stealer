@@ -64,7 +64,6 @@ public class StealService {
 
     }
 
-
     @Transactional
     public void saveCameraData(Camera camera){
         cameraRepository.save(camera);

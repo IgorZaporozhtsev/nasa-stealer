@@ -9,5 +9,4 @@ import java.util.List;
 @Data
 public class NasaResponse {
     private List<PictureResponse> photos;
-
 }
